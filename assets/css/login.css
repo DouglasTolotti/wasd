@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', arial;
+    font-stretch: extra-condensed;
+}
+
+body{
+    background: #ffffff;
+}
+
+.cabecalho{
+    top: 0;
+   position: fixed;
+    width: 100%;
+    z-index: 0;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #398fa0, #005566);
+}
+
+#logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+.container{
+  margin: 0 auto;
+  margin-top: 74px;
+  width: 80%;
+  height: auto;
+  background: #012c35;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#titulo{
+  font-size: 25px;
+  padding-bottom: 10%
+}
+
+#login{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  text-align: left;
+  border: solid 1px darkslategray;
+  padding: 5%;
+margin-right: 4%;
+}
+
+#cadastro{
+  margin-top: 5%;
+  margin-bottom: auto;
+  color: white;
+  text-align: left;
+  border: solid 1px darkslategray;
+  padding: 5%;
+
+}
+  .menu{
+      position: absolute;
+      bottom: 0px;
+  }
+
+nav{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  z-index: 5;
+}
+
+  ul{
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#promo{
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#cont{
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#cat{
+  border-top: 0;
+  border-bottom: 0;
+}
+
+nav ul li{
+    position: relative;
+    float: left;
+}
+
+li ul{
+    position: absolute;
+    left: 0px;
+    top:100%;
+    display: none;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    z-index: 5;
+}
+
+nav ul li ul li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0px;
+  padding: 15px;
+  z-index: 5;
+}
+
+li:hover ul{
+    display: block;
+}
+
+li:hover a{
+  background: #ffffff;
+  color: #000;
+}
+
+ul li ul li{
+    float: none;
+    width: 170px;
+    background: #ffffff;
+    z-index: 5;
+}
+
+ul li ul li{
+    position: relative;
+}
+
+
+ul li ul li ul{
+    position: absolute;
+    left: 170px;
+    top: 0px;
+}
+
+li ul li ul li{
+    display: none;
+    background: #ffffff;
+}
+
+ul li ul li:hover li{
+    display: block;
+}
+
+#navLogin{
+  right: 0%;
+  left: auto;
+}
+
+#ulLogin{
+  float: right;
+}
+
+footer{
+  margin: 0 auto;
+  padding: 5%;
+  width: 70%;
+  height: 20vh;
+text-align: center;
+  color: white;
+  font-size: 35px;
+  background: #0a192b;
+  z-index: 0;
+}
+
+footer i{
+	margin: 2%;
+}
+
+#wasdFooter{
+  font-size: 20px;
+  margin-left: 5%;
+  text-align: left;
+float: left;
+}
+
